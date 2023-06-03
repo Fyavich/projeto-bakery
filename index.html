@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto - Bakery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="leftContainer">
+            <div id="logoIMG">
+                <img src="logo.png" alt="logo" width="180px" height="180px">
+            </div>
+
+            <div id="lcInputs">
+                <input type="text" id="inputName" placeholder="Código/Nome do Produto" list="itemList" value="">
+                <datalist id="itemList"></datalist>
+
+                <input type="number" id="inputQTD" placeholder="Quantidade">
+            </div>
+
+            <div id="lcButtons">
+                <button id="" onclick="incluirItem()">Incluir Item</button><br>
+                <button id="removerItem" onclick="removerItem()">Remover Item</button><br>
+                <button id="" onclick="concluirVenda()">Concluir Venda</button>
+            </div>
+        </div>
+
+        <div class="rightContainer">
+            <div id="rcInputs">
+                <div id="leftContent">
+                    <input type="number" id="listSize" readonly value="0">                    
+                    <label for="listSize">Item(s)</label>
+                </div>
+
+                <div id="rightContent">
+                    <label for="somatoria1">R$</label>
+                    <input type="number" id="somatoria1" readonly value="0.00">
+                </div>            
+                
+            </div>
+
+            <div id="rcTable">
+                <table>
+                    <tr>
+                        <th>Cód</th>
+                        <th>Nome</th>
+                        <th>Qtd</th>
+                        <th>Valor(un)</th>
+                        <th>Valor</th>
+                    </tr>
+                </table>
+                <table id="listTable"></table>
+            </div>
+            
+        </div>
+
+        <div class="cPagamento">
+
+            <div class="cpContent">
+                <label for="somatoria2">Valor Total: </label>
+                <input type="number" id="somatoria2" readonly value="0.00">
+
+                <p id="textPagamento">Forma de Pagamento</p>
+
+                <div id="formasDePagamento">                
+                    <div id="formPagDiv">
+                        <input type="checkbox" id="pagamentoDinheiro" value="Dinheiro"> Dinheiro
+                        <div id="dinheiroDiv">
+                            <div id="pInputs">
+                                <label for="valorRecebido">Recebido</label>
+                                <input type="number" id="valorRecebido" onchange="calcTroco()">
+                            </div>
+                            <div id="pInputs">
+                                <label for="troco">Troco</label>
+                                <input type="number" id="troco" readonly value="0.00">
+                            </div>                    
+                        </div>
+                    </div>
+
+                    <div id="formPagDiv">
+                        <input type="checkbox" id="pagamentoCartao" value="Cartao"> Cartão
+                        <div id="cartaoDiv">
+                            <div id="pCardInputs">
+                                <label for="docPagamento">Doc. Pagamento</label>
+                                <input type="text" id="docPagamento">
+                            </div>                  
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="script.js" defer></script>
+</body>
+</html>

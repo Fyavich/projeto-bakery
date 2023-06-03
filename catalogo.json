@@ -1,0 +1,117 @@
+[
+    {
+        "codigo": 10001,
+        "nome": "Pão Francês",
+        "valor": 0.70
+    },
+    {
+        "codigo": 10002,
+        "nome": "Baguete",
+        "valor": 1.00
+    },
+    {
+        "codigo": 10003,
+        "nome": "Pão Integral",
+        "valor": 0.75
+    },
+    {
+        "codigo": 10004,
+        "nome": "Pão de Queijo",
+        "valor": 1.00
+    },
+    {
+        "codigo": 10005,
+        "nome": "Croissant",
+        "valor": 1.20
+    },
+    {
+        "codigo": 10006,
+        "nome": "Rosquinha",
+        "valor": 0.80
+    },
+    {
+        "codigo": 10007,
+        "nome": "Bolode Chocolate",
+        "valor": 3.00
+    },
+    {
+        "codigo": 10008,
+        "nome": "Bolode Cenoura",
+        "valor": 2.50
+    },
+    {
+        "codigo": 10009,
+        "nome": "Bolode Fubá",
+        "valor": 2.50
+    },
+    {
+        "codigo": 10010,
+        "nome": "Bolode Milho",
+        "valor": 2.50
+    },
+    {
+        "codigo": 10011,
+        "nome": "Sonho",
+        "valor": 1.20
+    },
+    {
+        "codigo": 10012,
+        "nome": "Coxinha",
+        "valor": 1.00
+    },
+    {
+        "codigo": 10013,
+        "nome": "Pastel de Queijo",
+        "valor": 3.00
+    },
+    {
+        "codigo": 10014,
+        "nome": "Empadade Frango",
+        "valor": 2.00
+    },
+    {
+        "codigo": 10015,
+        "nome": "Empadade Palmito",
+        "valor": 2.00
+    },
+    {
+        "codigo": 10016,
+        "nome": "Enroladinho de Salsicha",
+        "valor": 1.50
+    },
+    {
+        "codigo": 10017,
+        "nome": "Queijo Quente",
+        "valor": 2.50
+    },
+    {
+        "codigo": 10018,
+        "nome": "Café Expresso",
+        "valor": 1.50
+    },
+    {
+        "codigo": 10019,
+        "nome": "Cappuccino",
+        "valor": 3.00
+    },
+    {
+        "codigo": 10020,
+        "nome": "Suco Natural",
+        "valor": 3.00
+    },
+    {
+        "codigo": 10021,
+        "nome": "Chocolate Quente",
+        "valor": 3.00
+    },
+    {
+        "codigo": 10022,
+        "nome": "Refrigerante",
+        "valor": 3.00
+    },
+    {
+        "codigo": 10023,
+        "nome": "Caldo de Cana",
+        "valor": 2.50
+    }
+]
