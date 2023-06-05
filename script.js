@@ -68,7 +68,7 @@ function incluirItem(){
 
     var pedido = new Pedido();
 
-    if(item.value == "" || qtd.value == ""){
+    if(item.value == "" || qtd.value == "" || parseInt(qtd.value) < 0){
         alert("Item ou Quantidade não informado!");
     }else{
         pedido.cod = itemCod;
